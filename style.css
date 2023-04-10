@@ -1,0 +1,77 @@
+.diceBody {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.roll_container {
+    background-color: #4a3757;
+    border-radius: 15px;
+    width:18em;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.rollLabel,.hitContainer,.atkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.diceCont,.rollButtonContainer {
+    display: flex;
+    padding: .5em 1em;
+}
+
+.rollNameContainer {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
+}
+
+
+.diceImg,.rollButton,.ATKDiceImg,.HITDiceImg {
+    background-color: #34273d;
+    width: 5em;
+    margin: 0 1em;
+    padding: 1em;
+    border-radius:15px;
+    color:antiquewhite;
+}
+
+.dicetext, .hitMod, .atkMod {
+    text-align: right;
+    margin: 1em;
+    width: 3em;
+}
+
+.hitContainer {
+    margin-left: .6em;
+}
+
+.currRollCont {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.rollName {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: .5em;
+    margin-left:1em;
+}
+
+.currRollText {
+    display: flex;
+    text-align: left;
+    width: .1em;
+    padding: .5em;
+    margin-left:.5em;
+}
