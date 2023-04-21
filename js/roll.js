@@ -48,7 +48,7 @@ class Roll{
 
         currRollCont.append(hitBlockDisplay, atkBlockDisplay)
         nameAndRollCont.append(rollName,currRollCont )
-        document.querySelector(".currRoll").append(nameAndRollCont)
+        currRoll.append(nameAndRollCont)
 
         this.currentRoll.map(element => this.render(element.name, element.count, element.outcome))
         return nameAndRollCont
